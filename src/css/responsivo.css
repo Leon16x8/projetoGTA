@@ -1,0 +1,104 @@
+@media (max-width: 1024px) {
+    .cabecalho{
+        justify-content: center;
+        flex-direction: column;
+        padding: 55px 0;
+        gap: 15px;
+    } 
+
+    .cabecalho .menu li a{
+        padding: 23px;
+    }
+
+    .home .informacoes{
+        padding: 30px;
+    }
+
+    .home .informacoes img{
+        max-width: 100px;
+    }
+
+    .home .informacoes .titulo{
+        font-size: 40px;
+    }
+
+    .compre-ja .cartao{
+        width: 70%;
+    }
+}
+
+@media (max-width: 765px) {
+    .home .informacoes{
+        padding: 20px;
+    }
+
+    .home .informacoes img{
+        max-width: 100px;
+    }
+
+    .home .informacoes .titulo{
+        font-size: 30px;
+    }
+
+    .compre-ja .cartao{
+        padding: 80px 20px;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .btn-plataforma{
+        margin-top: 15px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 638px) {
+
+    .home .informacoes{
+        padding: 20px;
+    }
+
+    .home .informacoes img{
+        max-width: 80px;
+    }
+
+    .compre-ja .cartao{
+        padding: 80px 20px;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .compre-ja .cartao .plataformas img{
+        flex-direction: column;
+    }
+
+    .btn-plataforma{
+        margin-top: 15px;
+        padding: 15px;
+    }
+}
+
+@media (max-width: 393px) {
+    .home .informacoes{
+        padding-top: 100px;
+    }
+
+    .home .informacoes img{
+        max-width: 50px;
+    }
+
+    .compre-ja .cartao{
+        padding: 80px 20px;
+        width: 100%;
+        font-size: 30px;
+    }
+
+    .compre-ja .cartao .plataformas img{
+        flex-direction: column;
+    }
+
+    .btn-plataforma{
+        margin-top: 15px;
+        padding: 15px;
+    }
+}

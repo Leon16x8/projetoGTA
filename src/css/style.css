@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     background-color: #282828; /* Cor de Fundo */  
     color: #fff; /* Cor da Fonte */                                  
@@ -5,12 +9,15 @@ body{
 
 .cabecalho{
     height: 80px; /* Altura do Cabeçalho */
+    width: 100%;
     background-color: #0b0b0b; /* Cor de fundo do header | cabeçalho */
     display: flex; /* Flex para os elementos ficarem um do lado do outro */
     justify-content: space-between; /* Espaço entre os elementos horizontalmente */
     align-items: center; /* Alinhar itens verticalmente */
     padding: 0 80px; /* Espaçamento entre o lado esquerdo e direito */
     border-bottom: 1px solid #282828; /* Defenir borda botão em baixo do tipo solida */
+    position: fixed;
+    z-index: 2;
 }/* Estilizando classe cabecalho */
 
 .cabecalho .logo{
@@ -45,7 +52,7 @@ body{
     position: absolute; /* Para sair do fluxo normal e fica em cima */
     height: 100%;
     width: 100%;
-    background: linear-gradient(90deg, rgb(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%);
+    background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%);
 } /* Colocar efeito de vinheta lado esquerdo */
 
 .home .imagem-fundo{
@@ -178,6 +185,7 @@ body{
 .compre-ja .btn-plataforma .plataformas.ativo{
     display: flex;
     opacity: 1;
+    transition: all .3s ease-in;
 }
 
 .compre-ja .btn-plataforma .plataformas li{
